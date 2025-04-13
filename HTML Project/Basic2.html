@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head> <!--this is header-->
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        .a {
+            text-align:center;font-family:Algerian;font-size:15px;background-color:yellow;color:red; }
+
+        .container li{
+            letter-spacing:unset;
+            background-color:yellow;
+            color:red;
+            text-align:center;
+            text-overflow:ellipsis;
+            justify-content:space-evenly;
+            display:inline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Heading of Heading1</h1>
+    <h2>Heading of Heading2</h2>
+    <h3>Heading of Heading3</h3>
+    <h4>Heading of Heading4</h4>
+    <h5>Heading of Heading5</h5>
+    <a href="https://www.youtube.com/" target="_blank">My Youtube</a>
+
+    <p class="a"> Wikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikimedia Foundation.  </p>
+    <p class="a"> Wikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikimedia Foundation.  </p>
+    <p class="a"> Wikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikimedia Foundation.  </p>
+    <p class="a"> Wikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikimedia Foundation.  </p>
+    <p class="a"> Wikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikimedia Foundation.  </p>
+    <p class="a"> Wikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikimedia Foundation.  </p>
+
+    <span>span1</span><br><span>span2</span>
+
+
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Lurking_tiger.jpg/1024px-Lurking_tiger.jpg" alt="tiger" img>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <div class="container">
+        <ul>
+            <li> <a href="https://www.youtube.com/" target="_blank">YouTube</a></li>
+            <li><a href="https://www.google.com/maps/dir/Hope+Farm+Bus+stop,+ITPL+Main+Road,+Kadugodi+Colony,+Prasanth+Extension,+Kadugodi,+Bengaluru,+Karnataka/12.98681%0977.76383/@12.9851967,77.7535117,15.72z/data=!4m12!4m11!1m5!1m1!1s0x3bae0f8aa61f52b5:0xf238a4af44212ea7!2m2!1d77.7498168!2d12.9844579!1m3!2m2!1d77.76383!2d12.98681!3e9?entry=ttu&g_ep=EgoyMDI1MDExMC4wIKXMDSoASAFQAw%3D%3D">Google Map</a></li>
+            <li><a href="https://web.whatsapp.com/" target="_blank">Whatsapp</a></li>
+        </ul>
+
+
+    </div>
+
+    <canvas id="myCanvas" height="150" width="300" style="border:1px solid;"></canvas>
+
+    <script>
+        const canvas = document.getElementById("myCanvas");
+        const ctx = canvas.getContext("2d");
+
+        ctx.font = "50px Arial";
+        ctx.fillStyle = "purple";
+        ctx.fillText("Hello World", 10, 80);
+    </script>
+
+
+    <canvas id="mCanvas" height="150" width="300" style="border:1px solid;"></canvas>
+
+    <script>
+        var canvas = document.getElementById("mCanvas");
+        var ctx = canvas.getContext("2d");
+
+        ctx.font = "50px Arial";
+        ctx.strokeStyle = "purple";
+        ctx.strokeText("Hello World", 10, 80);
+    </script>
+
+</body>
+</html>
